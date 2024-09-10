@@ -1,36 +1,29 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Tip Calculator Application 💰✨
 
-## Getting Started
+Welcome to the **Tip Calculator Application**, the 9th project of my **30 Days 30 Projects Challenge**. This app allows users to input a bill amount and a tip percentage, and it automatically calculates and displays the tip amount along with the total bill (bill + tip).
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Bill Input**: Enter the bill amount to calculate the tip.
+- **Tip Percentage Input**: Choose the percentage of the tip you’d like to add.
+- **Tip Calculation**: The app instantly calculates and displays the tip amount.
+- **Total Bill Calculation**: Displays the total amount, including the bill and the tip.
+- **Responsive Layout**: The design is fully responsive for smooth operation on both mobile and desktop devices.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tech Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Next.js**: A React framework for building full-stack web applications with server-side rendering.
+- **React**: Manages the UI components and state of the application.
+- **Tailwind CSS**: Provides responsive styling with utility-first CSS classes.
+- **shadcn/ui**: A beautiful set of pre-designed components using Tailwind CSS for a polished interface.
+- **Vercel**: Used for deploying the web application, ensuring it's accessible online.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Live Demo
 
-## Learn More
+Check out the live demo of the Tip Calculator App on Vercel:
 
-To learn more about Next.js, take a look at the following resources:
+[Live Demo](https://tip-calculator-app-indol.vercel.app/)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Screenshot
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+![Tip-Calculator](https://github.com/user-attachments/assets/c091b55b-2806-4816-8163-22a36e14a5b7)
